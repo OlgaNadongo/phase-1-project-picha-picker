@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="un.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+ <h2>Picha picker</h2>
+ <div class="totalContainer">
+   <div class="imageInfo">
+   <div class="container">
+    
+        <div  class="result">
+           <img id="imageresult">
+        </div>
+       
+    </div>
+  <div class="button">
+    <button id="imgbtn">Get Random Image From Unsplash</button>
+   
+   </div>
+</div>  
+
+<div class="commentArea">
+    
+
+ <form id="commentform">
+    
+    <textarea id="comment"></textarea> 
+    
+ </form>
+
+  <div class="button">
+    <button id="submitbtn" type="submit">Add comment</button>
+  </div>
+
+  <div id="commentContainer">
+    <h3 id="previousComments">Comments</h3>
+    <ul id="commentList">
+        <li>Lovely pictures</li>
+        <li>This keeps me busy anyday</li>
+        <!--show comments in a list -->
+    </ul>
+ </div>
+ 
+ </div>
+ <div class="contactArea">
+    <h3 id="contacttitle">Contact Us:</h3>
+    <form id="contactform">
+        <div class="name">
+            <label for="name">*Name:
+                <input id="name" name="name"type="text" placeholder="John Doe" required>
+            </label>
+        </div>
+       
+       <div class="email">
+        <label for="email">*Email:
+            <input id="email" name="email" type="email" required>
+        </label>
+       </div>
+       
+       <div class="message">
+        <label>*Message:</label>
+        <input id="message" required> 
+       </div>
+
+       <div class="contactbtn">
+        <input id="contactbtn" type="submit" placeholder="Submit">
+       </div>
+      
+    </form>
+   </div>
+ 
+</div>
+
+   <script src="unsplash.js"></script>
+</body>
+</html>
