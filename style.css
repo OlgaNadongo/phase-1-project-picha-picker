@@ -1,0 +1,28 @@
+body{
+    background:#2f4f4f ;
+}
+h2{
+   text-align: center;
+  color: #dfecec;
+}
+
+.totalContainer{
+    background-color: #2f4f4f;
+    height:600px;
+    width:2300px;
+} 
+ .imageInfo{
+    
+    background-color:#dfecec ;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 1000px;
+    margin-left: 100px;
+   
+} 
+img{
+    width: 1000px;
+    height:600px;
+    
+}
