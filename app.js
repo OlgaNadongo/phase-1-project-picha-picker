@@ -20,3 +20,6 @@ function showRandomImage(){
 .catch(error=>console.log(error))
 
  }
+ const submitBtn=document.querySelector("#submitbtn")
+      
+submitBtn.addEventListener("click",writeComment)
