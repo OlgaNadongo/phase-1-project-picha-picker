@@ -39,7 +39,7 @@ function writeComment(){
 const contactForm=document.querySelector("#contactform")
 contactForm.addEventListener("submit",(e)=>{
     e.preventDefault(); 
-    
-    
+    setTimeout(() =>{
+        alert ('Form submitted succefully!'), 2000});
 })
 
