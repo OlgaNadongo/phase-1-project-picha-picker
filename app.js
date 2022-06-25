@@ -34,3 +34,7 @@ function writeComment(){
      document.querySelector("#commentList").appendChild(newComment)
 
 }
+
+//add submit event to submit contact form and alert when successful
+const contactForm=document.querySelector("#contactform")
+
