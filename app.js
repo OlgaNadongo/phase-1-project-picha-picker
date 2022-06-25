@@ -9,3 +9,14 @@ let imageItem=document.querySelector("#imageresult")
 let imageBtn=document.querySelector("#imgbtn")
 
 imageBtn.addEventListener("click", showRandomImage)
+
+function showRandomImage(){
+    fetch(finalPoint)
+ 
+.then(res=>res.json())
+
+.then(data=>imageItem.src = data.urls.regular)
+
+.catch(error=>console.log(error))
+
+ }
