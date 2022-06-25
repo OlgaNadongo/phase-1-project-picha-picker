@@ -37,4 +37,9 @@ function writeComment(){
 
 //add submit event to submit contact form and alert when successful
 const contactForm=document.querySelector("#contactform")
+contactForm.addEventListener("submit",(e)=>{
+    e.preventDefault(); 
+    
+    
+})
 
