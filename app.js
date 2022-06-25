@@ -20,6 +20,17 @@ function showRandomImage(){
 .catch(error=>console.log(error))
 
  }
+
+  //add click event to submit button so that when clicked it submits a comment
  const submitBtn=document.querySelector("#submitbtn")
       
 submitBtn.addEventListener("click",writeComment)
+
+function writeComment(){
+    const addComment=document.querySelector("#comment").value
+    let newComment=document.createElement("li")
+    
+     newComment.textContent=addComment
+     document.querySelector("#commentList").appendChild(newComment)
+
+}
