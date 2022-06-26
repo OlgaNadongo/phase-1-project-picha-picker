@@ -7,10 +7,15 @@
 
  ## **Project Set Up**
  1.Click get random image from unsplash to get a random image
+ 
  2.The type of camera used will be displayed on the top side of the image
+ 
  3.To add a comment, type in the comment box 
+ 
  4.Click on add comment button to see the comment displayed
+ 
  5.To contact site owners, fill the contact form at the bottom of the page and click submit
+ 
  6.To delete a comment, click on the particular comment you want to delete 
 
 
