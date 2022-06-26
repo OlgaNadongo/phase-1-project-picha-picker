@@ -49,6 +49,7 @@ function writeComment(){
     let newComment=document.createElement("li")
     
      newComment.textContent=addComment
+     newComment.addEventListener("click",()=>newComment.remove())//enable user to delete a comment
      document.querySelector("#commentList").appendChild(newComment)
 
 }
