@@ -33,6 +33,7 @@ img{
     bottom: 600px;
     height:600px ;
     width:15%
+   
 
     
 }
@@ -53,8 +54,14 @@ img{
     left :21%;
     margin-top: 10%;
     color: #50394c;
+    font-family: 'Patrick Hand', cursive;
 
 }
+#commentList{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+}
+
 ul{
     position: relative;
     left :19%;
@@ -94,6 +101,7 @@ ul{
     position: relative;
     left:20%;
     top:20px;
+    font-family: 'Patrick Hand', cursive;
 }
 .contacttitle{
     float: left;
@@ -153,10 +161,11 @@ ul{
 .moreDetails{
     color:#dfecec;
     position: relative;
-    /* left:20%; */
+    left:30%; 
     /* bottom:40px; */
-    bottom: 620px;
+    bottom: 619px;
     background: rgb(209, 110, 110);
-    width:20%;
+    width:25%;
     border-radius: 5px;
+    text-align: center;
 }
