@@ -6,17 +6,17 @@
  The app allows users to comment on the images and even contact the owners of the site.
 
  ## **Project Set Up**
- 1.Click get random image from unsplash to get a random image
+ 1.Click get random image from unsplash to get a random image.
  
- 2.The type of camera used will be displayed on the top side of the image
+ 2.The type of camera used will be displayed on the top side of the image.
  
- 3.To add a comment, type in the comment box 
+ 3.To add a comment, type in the comment box.
  
- 4.Click on add comment button to see the comment displayed
+ 4.Click on add comment button to see the comment displayed.
  
- 5.To contact site owners, fill the contact form at the bottom of the page and click submit
+ 5.To contact site owners, fill the contact form at the bottom of the page and click submit.
  
- 6.To delete a comment, click on the particular comment you want to delete 
+ 6.To delete a comment, click once on the particular comment you want to delete.
 
 
  ## **Link**
