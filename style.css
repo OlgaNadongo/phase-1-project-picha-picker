@@ -150,3 +150,13 @@ ul{
     background-color: #4a9191;
     color:#dfecec;
 }
+.moreDetails{
+    color:#dfecec;
+    position: relative;
+    /* left:20%; */
+    /* bottom:40px; */
+    bottom: 620px;
+    background: rgb(209, 110, 110);
+    width:20%;
+    border-radius: 5px;
+}

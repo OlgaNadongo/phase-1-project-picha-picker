@@ -14,6 +14,7 @@ let imageItem=document.querySelector("#imageresult")
 
 
 //add click event to imagebutton such that when clicked it displays a random image
+//also display the camera used for each photo
 let imageBtn=document.querySelector("#imgbtn")
 let cameraModel=document.querySelector("#cameraModel")
 
@@ -29,7 +30,7 @@ function showRandomImage(){
            imageItem.src=data.urls.regular
            
            cameraModel.innerText=data.exif.make
-        //    cameraModel.setAttribute(data.exif.model)
+        
        }
 
 )
