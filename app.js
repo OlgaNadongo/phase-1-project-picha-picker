@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded',onPageLoad); 
+
+//Runs on page load;
+function onPageLoad (){ 
+    showRandomImage()
+    writeComment();   
+}
+
 let clientID ="-2yT9-B7fKq2ROF16qevFLw9OeXkPFU93B7ssClGeh0";
 let finalPoint=`https://api.unsplash.com/photos/random/?client_id=${clientID}`;
 
