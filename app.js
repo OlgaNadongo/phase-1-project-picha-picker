@@ -15,6 +15,7 @@ let imageItem=document.querySelector("#imageresult")
 
 //add click event to imagebutton such that when clicked it displays a random image
 let imageBtn=document.querySelector("#imgbtn")
+let cameraModel=document.querySelector("#cameraModel")
 
 imageBtn.addEventListener("click", showRandomImage)
 
@@ -23,7 +24,15 @@ function showRandomImage(){
  
 .then(res=>res.json())
 
-.then(data=>imageItem.src = data.urls.regular)
+.then(/*data=>imageItem.src = data.urls.regular*/
+       data=>{
+           imageItem.src=data.urls.regular
+           
+           cameraModel.innerText=data.exif.make
+        //    cameraModel.setAttribute(data.exif.model)
+       }
+
+)
 
 .catch(error=>console.log(error))
 
