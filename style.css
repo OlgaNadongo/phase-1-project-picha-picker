@@ -32,10 +32,7 @@ img{
     left: 1000px;
     bottom: 600px;
     height:600px ;
-    width:15%
-   
-
-    
+    width:15% ;  
 }
 #comment{
     width:300px;
@@ -54,11 +51,11 @@ img{
     left :21%;
     margin-top: 10%;
     color: #50394c;
-    font-family: 'Patrick Hand', cursive;
+    
 
 }
 #commentList{
-    font-family: 'Patrick Hand', cursive;
+    
     font-weight: bold;
 }
 
@@ -101,7 +98,7 @@ ul{
     position: relative;
     left:20%;
     top:20px;
-    font-family: 'Patrick Hand', cursive;
+    
 }
 .contacttitle{
     float: left;
