@@ -1,10 +1,10 @@
+//add DomContentLoaded event for everything in the html to load before firing 
 document.addEventListener('DOMContentLoaded',onPageLoad); 
 
 //Runs on page load;
 function onPageLoad (){ 
     allworks() 
-    // showRandomImage()
-    // writeComment();  
+    
 }
 function allworks(){
 let clientID ="-2yT9-B7fKq2ROF16qevFLw9OeXkPFU93B7ssClGeh0";
@@ -45,7 +45,9 @@ function showRandomImage(){
       
 submitBtn.addEventListener("click",writeComment)
 
+
 function writeComment(){
+
     const addComment=document.querySelector("#comment").value
     let newComment=document.createElement("li")
     
